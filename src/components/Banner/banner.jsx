@@ -8,8 +8,8 @@ import ReactTypingEffect from 'react-typing-effect';
 export default function Banner() {
     const imageURL = "https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg";
 
-    const img1 = '/public/img/imageheader2.png'
-    const img2 = '/public/img/imageheader1.png'
+    const img1 = '/img/imageheader2.png'
+    const img2 = '/img/imageheader1.png'
 
     const ImageToggleOnScroll = ({primaryImg, secondaryImg}) => {
         const imageRef = useRef(null);

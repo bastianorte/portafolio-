@@ -96,12 +96,11 @@ export default function Work() {
         },
         {
             title: 'Landings CMS',
-            description: 'Landings page o paginas de captura diseñadas y desarrolladas de una forma optima y responsiva para una correcta lectura, tratando de cumplir con los propositos del cliente.',
+            description: 'Landings page o página de aterrizaje diseñadas y desarrolladas de una forma optima y en diferentes plataformas de CMS',
             images: ['img/landings1.jpg', 'img/landings2.jpg', 'img/landings3.jpg', 'img/landings4.jpg'],
             details: [
                 {
-                    title: 'Tipo',
-                    description: 'Web',
+
                 },
             ]
         },   

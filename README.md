@@ -11,8 +11,8 @@ profesional.
 
 ![Inicio](https://github.com/bastianorte/portafolio-/blob/main/public/primera.png)
 
-## Ver web en Netlify
-Markup :  [Ver web en Netlify](https://portafoliobo.netlify.app/ "er web en Netlify") 
+
+## [Ver web en Netlify](https://portafoliobo.netlify.app/ "er web en Netlify") 
 
 ### 📋 Prerrequisitos 
 

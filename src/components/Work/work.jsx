@@ -69,7 +69,7 @@ export default function Work() {
         {
             title: 'Web Hospital',
             description: 'Proyecto de pagina de hospital',
-            images: ['img/web1.jpg', 'img/web2.jpg', 'img/web3.jpg', 'img/web4.jpg'],
+            images: ['img/hos1.jpg', 'img/hos3.jpg', 'img/hos4.jpg', 'img/hos5.jpg'],
             details: [
                 {
                     title: 'Proyecto de Web Hospital',
@@ -147,7 +147,7 @@ export default function Work() {
                     <div className="grid grid-cols-12 gx-3 mb-5 pb-lg-3 mb-lg-3 pb-12 portfolio-box justify-around items-center">
                             <div className="col-span-12 md:col-span-6 md:px-5 lg:px-10 mb-10 md:mb-0">
                                 <div className="portfolio-img">
-                                    <img src="img/landings1.jpg" title="" alt="" />
+                                    <img src="img/hos2.jpg" title="" alt="" />
                                     <Link to="#" className="gallery-link gallery-link-icon">
                                         <i className="fas fa-arrow-right"></i>
                                     </Link>

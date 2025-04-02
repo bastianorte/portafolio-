@@ -37,8 +37,7 @@ function Proejct(props) {
                                     return (
 
                                         <li key={`detail_${i}`} className="flex py-2">
-                                            <span className="w-1/2 font-[600] text-black">{detail.title}:</span>
-                                            <a href={detail.web} target="_blank"><span className="w-1/2 font-[600] text-black">{detail.web}</span></a>                                                                                       
+                                            <a href={detail.web} target="_blank"><span className="w-1/2 font-[600] text-black">{detail.title}</span></a>                                                                                       
                                         </li>                                     
                                     )
                                 })}
@@ -68,17 +67,13 @@ export default function Work() {
     const projectDetails = [
 
         {
-            title: 'Paginas Web varias',
-            description: 'Programación de paginas optimizadas y responsivas en HTML, CSS y JS',
+            title: 'Web Hospital',
+            description: 'Proyecto de pagina de hospital',
             images: ['img/web1.jpg', 'img/web2.jpg', 'img/web3.jpg', 'img/web4.jpg'],
             details: [
                 {
-                    title: 'Portafolio HTML + CSS',
-                    web: 'https://bastianorte.github.io/portafolio/',                  
-                },
-                {
-                    title: 'Pagina Fabrica',
-                    web: 'https://bastianorte.github.io/fabrica/',                  
+                    title: 'Proyecto de Web Hospital',
+                    web: 'https://pruebahospital.netlify.app/',                  
                 },
             ]
         },
@@ -94,17 +89,6 @@ export default function Work() {
                 {
                     title: 'Pagina Fabrica',
                     web: 'https://bastianorte.github.io/fabrica/',                  
-                },
-            ]
-        },
-        {
-            title: 'Email Marketing',
-            description: 'Diseño y desarrollo de mailings varios optimizados y responsivos en HTML y CSS',
-            images: ['img/mailing6.jpg', 'img/mailing2.jpg', 'img/mailing4.jpg', 'img/mailing5.jpg'],
-            details: [
-                {
-                    title: 'Ejemplo de mailing',
-                    web: 'https://bastianorte.github.io/pagina-mail/',                  
                 },
             ]
         },
@@ -117,7 +101,18 @@ export default function Work() {
 
                 },
             ]
-        },   
+        },         
+        {
+            title: 'Email Marketing',
+            description: 'Diseño y desarrollo de mailings varios optimizados y responsivos en HTML y CSS',
+            images: ['img/mailing6.jpg', 'img/mailing2.jpg', 'img/mailing4.jpg', 'img/mailing5.jpg'],
+            details: [
+                {
+                    title: 'Ejemplo de mailing',
+                    web: 'https://bastianorte.github.io/pagina-mail/',                  
+                },
+            ]
+        },  
         {
             title: 'Proyectos React',
             description: 'Algunos ejercicios que he desarrollado en React',
@@ -150,6 +145,27 @@ export default function Work() {
                     <div className="lightbox-gallery portfolio-box">`
 
                     <div className="grid grid-cols-12 gx-3 mb-5 pb-lg-3 mb-lg-3 pb-12 portfolio-box justify-around items-center">
+                            <div className="col-span-12 md:col-span-6 md:px-5 lg:px-10 mb-10 md:mb-0">
+                                <div className="portfolio-img">
+                                    <img src="img/landings1.jpg" title="" alt="" />
+                                    <Link to="#" className="gallery-link gallery-link-icon">
+                                        <i className="fas fa-arrow-right"></i>
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className="col-span-12 md:col-span-6 md:px-5 lg:px-10">
+                                <div className="portfolio-text">
+                                    <h6><span>Web Design</span></h6>
+                                    <h4>Proyecto de hospital</h4>
+                                    <p>Gestión y desarrollo de landings en diversos CMS</p>
+                                    <div className="btn-bar">
+                                        <div className="px-btn px-btn-theme px_modal" onClick={() => setShowModal(1)}>Ver Más</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                          
+
+                    <div className="grid grid-cols-12 gx-3 mb-5 pb-lg-3 mb-lg-3 pb-12 portfolio-box justify-around items-center">
                             <div className="col-span-12 md:col-span-6 md:px-5 lg:px-10 md:order-last mb-10 md:mb-0">
                                 <div className="portfolio-img">
                                     <img src="img/webpage1.jpg" title="" alt="" />
@@ -164,7 +180,7 @@ export default function Work() {
                                     <h4>Paginas Web varias</h4>
                                     <p>Programación de paginas en HTML, CSS y JS </p>
                                     <div className="btn-bar">
-                                        <div className="px-btn px-btn-theme px_modal" onClick={() => setShowModal(1)}>Ver Más</div>
+                                        <div className="px-btn px-btn-theme px_modal" onClick={() => setShowModal(2)}>Ver Más</div>
                                     </div>
                                 </div>
                             </div>
@@ -206,7 +222,7 @@ export default function Work() {
                                     <h4>Email Marketing</h4>
                                     <p>Diseño y desarrollo de mailing en HTML y CSS</p>
                                     <div className="btn-bar">
-                                        <div className="px-btn px-btn-theme px_modal" onClick={() => setShowModal(2)}>Ver Más</div>
+                                        <div className="px-btn px-btn-theme px_modal" onClick={() => setShowModal(4)}>Ver Más</div>
                                     </div>
                                 </div>
                             </div>
@@ -229,7 +245,7 @@ export default function Work() {
                                     <h4>Proyectos de ejemplo en React</h4>
                                     <p>Aplicaciones y proyectos de ejemplo en React</p>
                                     <div className="btn-bar">
-                                        <div className="px-btn px-btn-theme px_modal" onClick={() => setShowModal(4)}>Ver Más</div>
+                                        <div className="px-btn px-btn-theme px_modal" onClick={() => setShowModal(5)}>Ver Más</div>
                                     </div>
                                 </div>
                             </div>

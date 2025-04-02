@@ -37,7 +37,7 @@ function Proejct(props) {
                                     return (
 
                                         <li key={`detail_${i}`} className="flex py-2">
-                                            <a href={detail.web} target="_blank"><span className="w-1/2 font-[600] text-black">{detail.title}</span></a>                                                                                       
+                                            <a href={detail.web} target="_blank"><span className="w-1/2 font-[600] text-black">{detail.title} ></span></a>                                                                                                                               
                                         </li>                                     
                                     )
                                 })}
@@ -67,8 +67,8 @@ export default function Work() {
     const projectDetails = [
 
         {
-            title: 'Web Hospital',
-            description: 'Proyecto de pagina de hospital',
+            title: 'Proyecto Hospital Web',
+            description: 'Desarrollo de sitio web para hospital, con diseño intuitivo y responsive. Incluye secciones para presentación de los doctores, perfiles médicos detallados y servicios ofrecidos. Optimizado para una navegación fácil y rápida, ofreciendo una experiencia de usuario excepcional en todos los dispositivos.',
             images: ['img/hos1.jpg', 'img/hos3.jpg', 'img/hos4.jpg', 'img/hos5.jpg'],
             details: [
                 {
@@ -156,8 +156,8 @@ export default function Work() {
                             <div className="col-span-12 md:col-span-6 md:px-5 lg:px-10">
                                 <div className="portfolio-text">
                                     <h6><span>Web Design</span></h6>
-                                    <h4>Proyecto de hospital</h4>
-                                    <p>Gestión y desarrollo de landings en diversos CMS</p>
+                                    <h4>Proyecto Hospital Web</h4>
+                                    <p>Desarrollo web para hospital: doctores, servicios y diseño responsive.</p>
                                     <div className="btn-bar">
                                         <div className="px-btn px-btn-theme px_modal" onClick={() => setShowModal(1)}>Ver Más</div>
                                     </div>

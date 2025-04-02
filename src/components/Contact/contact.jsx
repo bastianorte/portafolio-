@@ -9,9 +9,9 @@ export default function Contact() {
         <section data-scroll-data="4" id="contactus" className="section contactus-section bg-slate-900" style={{ "backgroundImage": "url(img/effect/bg-effect-3.png)", "backgroundRepeat": "no-repeat", "backgroundSize": "cover", "backgroundPosition": "center"}}>
             <div className="container">
                 <div className="grid grid-cols-12">
-                    <div className="col-span-12 lg:col-span-12 ">
-                        <div className="p-[25px] md:p-[35px] bg-white">
-                            <h6 className="text-[32px] font-[600] text-black mb-[5px]">Hablemos</h6>
+                    <div className="col-span-12 lg:col-span-12">
+                        <div className="p-[25px] md:p-[35px] bg-white mt-20">
+                            <h6 className="text-[32px] font-[600] text-black mb-[5px] mt-10">Hablemos</h6>
                             <p className="text-[18px] mb-[30px]">Puedes comunicarte conmigo completando el formulario de contacto a continuación o enviándome un correo electrónico directamente a bastianort@gmail.com.</p>
                             <form id="contact-form" method="POST">
                                 <div className="grid grid-cols-12 gap-3">
@@ -44,6 +44,8 @@ export default function Contact() {
                                             <button className="px-btn px-btn-theme2" type="button" value="Send">Enviar mensaje</button>
                                         </div>
                                     </div>
+                                    <div className="col-span-12 mt-10">
+                                    </div>                                    
                                 </div>
                             </form>
                         </div>

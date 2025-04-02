@@ -19,7 +19,7 @@ export default function Header() {
     const header_menus = [
         { id:0, name:'Home', scroll_link:'home' },
         { id:3, name:'Portfolio', scroll_link:'portfolio' },
-        { id:2, name:'Skills', scroll_link:'skill' },
+        { id:1, name:'Skills', scroll_link:'services' },
         { id:4, name:'Contacto', scroll_link:'contactus' }
     ]
     return (

@@ -19,7 +19,7 @@ function Footer() {
                         </div>
                     </div>
                     <div className="col-span-12 md:col-span-6 text-center md:text-right">
-                        <p className="m-0 text-white text-opacity-75">©2024 Copyright Bastian Ortega/ Pagina desarrollada en React</p>
+                        <p className="m-0 text-white text-opacity-75">©2025 Copyright Bastian Ortega/ Pagina desarrollada en React</p>
                     </div>
                 </div>
             </div>

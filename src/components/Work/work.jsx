@@ -67,7 +67,21 @@ export default function Work() {
 
     const projectDetails = [
 
-
+        {
+            title: 'Paginas Web varias',
+            description: 'Programación de paginas optimizadas y responsivas en HTML, CSS y JS',
+            images: ['img/web1.jpg', 'img/web2.jpg', 'img/web3.jpg', 'img/web4.jpg'],
+            details: [
+                {
+                    title: 'Portafolio HTML + CSS',
+                    web: 'https://bastianorte.github.io/portafolio/',                  
+                },
+                {
+                    title: 'Pagina Fabrica',
+                    web: 'https://bastianorte.github.io/fabrica/',                  
+                },
+            ]
+        },
         {
             title: 'Paginas Web varias',
             description: 'Programación de paginas optimizadas y responsivas en HTML, CSS y JS',

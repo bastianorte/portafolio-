@@ -9,8 +9,10 @@ estar alojado en una plataforma como GitHub o Behance, y los estudiantes deben a
 de que esté organizado y documentado adecuadamente para exhibir su trabajo de manera
 profesional.
 
-![Inicio](img/primera.png)
+![Inicio](https://github.com/bastianorte/portafolio-/blob/main/public/primera.png)
 
+## Ver web en Netlify
+Markup :  [Ver web en Netlify](https://portafoliobo.netlify.app/ "er web en Netlify") 
 
 ### 📋 Prerrequisitos 
 
@@ -22,13 +24,13 @@ profesional.
 Clona este repositorio en tu máquina local:
 
 ```bash
-git clone https://github.com/bastianorte/Modulo4Ejercicio3.git
+gh repo clone bastianorte/portafolio-
 ```
 
 Navega hasta el directorio del proyecto:
 
 ```bash
-cd Modulo4Ejercicio3
+cd Portafolio
 ```
 
 Instala las dependencias:
